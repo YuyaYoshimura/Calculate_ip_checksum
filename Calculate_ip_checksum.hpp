@@ -2,6 +2,8 @@
 #include <arpa/inet.h>
 #include <netinet/ip.h>
 
+#pragma once
+
 class Calculate_ip_checksum {
 public:
 	uint16_t checksum;
